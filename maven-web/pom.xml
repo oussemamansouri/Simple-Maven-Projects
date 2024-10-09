@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>DevOps.Elife</groupId>
+	<artifactId>maven-web</artifactId>
+	<version>1.0</version>
+	<packaging>war</packaging>
+	<name>maven-web</name>
+	<description>maven-web</description>
+
+	<dependencies>
+		<dependency>
+			<groupId>DesvOps.Elife</groupId>
+			<artifactId>maven-demo</artifactId>
+			<version>1.0</version>
+		</dependency>
+	</dependencies>
+	
+	<properties>
+		<maven.compiler.target>11</maven.compiler.target>
+		<maven.compiler.source>11</maven.compiler.source>
+	</properties>
+
+
+
+</project>
